@@ -1,0 +1,31 @@
+{
+  "name": "html-ts",
+  "version": "0.0.0",
+  "private": true,
+  "description": "A TypeScript HTML rendering engine",
+  "license": "MIT",
+  "author": "Schalk Neethling <schalkneethling@duck.com>",
+  "workspaces": [
+    "packages/*"
+  ],
+  "type": "module",
+  "scripts": {
+    "check": "vp check",
+    "test": "vp run -r test",
+    "build": "vp run -r build",
+    "vendor:html5lib": "tsx scripts/vendor-html5lib-tests.ts",
+    "prepare": "vp config"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "@typescript/native-preview": "7.0.0-dev.20260328.1",
+    "bumpp": "^11.0.1",
+    "typescript": "^6.0.2",
+    "vite-plus": "^0.1.14"
+  },
+  "overrides": {
+    "vite": "npm:@voidzero-dev/vite-plus-core@latest",
+    "vitest": "npm:@voidzero-dev/vite-plus-test@latest"
+  },
+  "packageManager": "bun@1.3.13"
+}
