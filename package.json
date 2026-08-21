@@ -17,10 +17,12 @@
     "prepare": "vp config"
   },
   "devDependencies": {
+    "@types/jest-image-snapshot": "^6.4.1",
     "@types/node": "^25.5.0",
     "@types/tar": "^7.0.87",
     "@typescript/native-preview": "7.0.0-dev.20260328.1",
     "bumpp": "^11.0.1",
+    "jest-image-snapshot": "^6.5.2",
     "prettier": "^3.8.3",
     "tar": "^7.5.15",
     "tsx": "^4.21.0",

@@ -4,7 +4,11 @@
   "private": true,
   "type": "module",
   "exports": {
-    ".": "./src/index.ts"
+    "./brand": "./src/brand.ts",
+    "./primitives": "./src/primitives.ts",
+    "./result": "./src/result.ts",
+    "./dev": "./src/dev.ts",
+    "./package.json": "./package.json"
   },
   "scripts": {
     "test": "vp test",

@@ -1,0 +1,19 @@
+{
+  "name": "@html-ts/conformance",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./paths": "./src/paths.ts",
+    "./tokenizer": "./src/html5lib-tokenizer.ts",
+    "./tree-construction": "./src/html5lib-dat.ts",
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "test": "vp test",
+    "check": "vp check"
+  },
+  "dependencies": {
+    "@html-ts/infrastructure": "workspace:*"
+  }
+}
