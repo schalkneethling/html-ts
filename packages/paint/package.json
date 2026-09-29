@@ -1,0 +1,14 @@
+{
+  "name": "@html-ts/paint",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./backend": "./src/backend.ts",
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "test": "vp test",
+    "check": "vp check"
+  }
+}

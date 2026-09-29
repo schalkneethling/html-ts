@@ -30,6 +30,10 @@
       "name": "@html-ts/infrastructure",
       "version": "0.0.0",
     },
+    "packages/paint": {
+      "name": "@html-ts/paint",
+      "version": "0.0.0",
+    },
   },
   "overrides": {
     "vite": "npm:@voidzero-dev/vite-plus-core@latest",
@@ -95,6 +99,8 @@
     "@html-ts/conformance": ["@html-ts/conformance@workspace:packages/conformance"],
 
     "@html-ts/infrastructure": ["@html-ts/infrastructure@workspace:packages/infrastructure"],
+
+    "@html-ts/paint": ["@html-ts/paint@workspace:packages/paint"],
 
     "@isaacs/fs-minipass": ["@isaacs/fs-minipass@4.0.1", "", { "dependencies": { "minipass": "^7.0.4" } }, "sha512-wgm9Ehl2jpeqP3zw/7mo3kRHFp5MEDhqAdwy1fTGkHAwnkGOVsgpvQhL8B5n1qlb01jV3n/bI0ZfZp5lWA1k4w=="],
 
